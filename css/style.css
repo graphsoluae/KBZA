@@ -80,7 +80,7 @@ main {
 
 }
 
-#save-contact{
+#save-contact {
     cursor: pointer;
 }
 
@@ -181,7 +181,11 @@ main {
 
     .box {
         height: 120vh;
-        background-color: red;
+        background-color: blue;
+    }
+
+    .box1 {
+        height: 60%;
     }
 }
 
