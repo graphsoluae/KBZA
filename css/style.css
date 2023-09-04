@@ -1,0 +1,183 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+main {
+    position: relative;
+}
+
+.box-outer {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    background-color: rgb(98%, 93%, 90%);
+    width: 38%;
+    margin-top: 50px;
+    height: 90vh;
+    box-shadow: 0 5px 20px hsla(0, 0%, 0%, 0.15);
+    border-radius: 20px;
+    z-index: 0;
+}
+
+.backgound-screen {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.background {
+    width: 100%;
+
+}
+
+.background.white {
+    height: 40vh;
+}
+
+.background.color {
+    background-color: rgb(98%, 93%, 90%);
+    height: 60vh;
+}
+
+.box1 {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+}
+
+.box2 {
+    background-color: white;
+    height: 50%;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    justify-content: center;
+    border-bottom-right-radius: 20px;
+}
+
+.box1 img {
+    width: 150px;
+    height: 150px;
+    border-radius: 30px;
+}
+
+.box1 h1 {
+    font-size: 32px;
+
+}
+
+#save-contact{
+    cursor: pointer;
+}
+
+.contacts-btn {
+    border: 1px solid white;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.btn-types {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn-types div {
+    background-color: rgb(98%, 93%, 90%);
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+}
+
+.btn-types div.active {
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.btn-types div:hover {
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.t1 {
+    width: 80%;
+    margin: 6% 0;
+}
+
+.t2 {
+    width: 80%;
+    margin: 6% 0;
+}
+
+.t3 {
+    width: 80%;
+    margin: 6% 0;
+}
+
+.conatct-field {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid hsl(0, 0%, 93%);
+    ;
+    padding: 30px 0;
+}
+
+.conatct-field div {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding-left: 10px;
+    gap: 8px;
+}
+
+.head-field {
+    font-size: 14px;
+}
+
+.text-field {
+    font-size: 16px;
+    color: rgb(84, 130, 219);
+    font-weight: 300;
+}
+
+
+.t2 {
+    display: none;
+}
+
+.t3 {
+    display: none;
+}
+
+@media (max-width: 850px) {
+
+    .box {
+        width: 100%;
+        height: 90vh;
+    }
+
+}
