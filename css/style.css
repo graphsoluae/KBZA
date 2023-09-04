@@ -173,14 +173,15 @@ main {
     display: none;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 400px) {
 
     .save-contact {
         margin-top: 100px;
     }
 
     .box {
-        height: 100vh;
+        height: 120vh;
+        background-color: red;
     }
 }
 
