@@ -176,6 +176,18 @@ main {
 
 
 
+@media (max-width: 450px) {
+
+    .box1 {
+        min-height: 440px;
+    }
+
+    .box {
+        margin-top: 0px;
+    }
+
+}
+
 @media (max-width: 850px) {
 
     .box {
