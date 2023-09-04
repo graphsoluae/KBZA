@@ -185,7 +185,7 @@ main {
     }
 
     .box1 {
-        height: 60%;
+        min-height: 500px;
     }
 }
 
