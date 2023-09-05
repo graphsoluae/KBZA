@@ -1,3 +1,5 @@
+//New changes
+
 *,
 *::before,
 *::after {
@@ -53,7 +55,7 @@ main {
 
 .box1 {
     height: 50%;
-    min-height: 500px;
+    min-height: 480px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,8 +74,9 @@ main {
 }
 
 .box1 img {
-    width: 150px;
+    width: 160px;
     height: auto;
+    max-height: 210px;
     border-radius: 30px;
 }
 
